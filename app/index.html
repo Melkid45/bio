@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/proxima-nova-condensed" rel="stylesheet">
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/style.min.css">
+    <title>Био Бьюти</title>
+</head>
+<body>
+    <div class="main__wrap">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <a class="header__body-logo" href="">
+                        <img src="../images/dist/header__logo.png" alt="">
+                    </a>
+                    <nav class="header__body-menu">
+                        <ul class="header__body-menu-list">
+                            <li class="header__body-menu-list-item btn">
+                                <a href="">Кому подойдет</a>
+                            </li>
+                            <li class="header__body-menu-list-item btn">
+                                <a href="">Преимущества</a>
+                            </li>
+                            <li class="header__body-menu-list-item btn">
+                                <a href="">Скрабы</a>
+                            </li>
+                            <li class="header__body-menu-list-item btn">
+                                <a href="">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__body-contact">
+                        <a class="btn" href="tel:892550480638">
+                            8 (925) 504-80-638
+                        </a>
+                        <div class="header__body-contact-time">
+                            <div class="circle"></div>
+                            <span class="btn">c 10:00 до 18:00, 7 дней в неделю</span>
+                        </div>
+                    </div>
+                    <button class="header__body-btn btn">
+                        Заказать звонок
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main__body">
+                    <h1 class="main__body-title">
+                        <span>Скрабы на основе природных минералов,</span> созданные в нашей лаборатории
+                    </h1>
+                    <p class="main__body-desc">
+                        Подарите своей коже глубокое очищение с сохранением липидного барьера
+                    </p>
+                    <button class="main__body-btn btn">
+                        Подобрать подходящий скраб
+                    </button>
+                    <div class="main__body-card">
+                        <div class="main__body-card-item">
+                            <img src="../images/dist/main__card/1.png" alt="">
+                            <p>Для ежедневного ухода за кожей</p>
+                        </div>
+                        <div class="main__body-card-item">
+                            <img src="../images/dist/main__card/2.png" alt="">
+                            <p>Результат за 30 секунд</p>
+                        </div>
+                        <div class="main__body-card-item">
+                            <img src="../images/dist/main__card/3.png" alt="">
+                            <p>Заменяют УЗ-чистку в салоне</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <img class="main__wrap-bot" src="../images/dist/main__bot.png" alt="">
+    </div>
+    <section class="about">
+        <div class="container">
+            <div class="about__body">
+                <img src="../images/dist/about__img.png" alt="">
+                <div class="about__body-text">
+                    <div class="line"></div>
+                    <h2 class="about__body-text-title title-soft">
+                        О нашей <span>косметике</span>
+                    </h2>
+                    <p>Мы используем природные компоненты, чтобы восстановить кожу, помочь ей самой справляться с проблемами и сохранить ее собственные ресурсы</p>
+                    <ul class="about__body-text-list">
+                        <span>При регулярном использовании Биочистка:</span>
+                        <li>
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65148 0.0763297C1.02077 0.24825 0.441409 0.75142 0.150493 1.37987C0.000633874 1.70367 0 1.72906 0 7.50837C0 13.3074 0.000140801 13.312 0.152183 13.6407C0.367676 14.1065 0.829296 14.5777 1.29282 14.8051L1.69014 15H7.5H13.3099L13.7072 14.8051C14.1707 14.5777 14.6323 14.1065 14.8478 13.6407C14.9999 13.312 15 13.3074 15 7.50837C15 1.70936 14.9999 1.70479 14.8478 1.37607C14.6323 0.910256 14.1707 0.439023 13.7072 0.211601L13.3099 0.0167484L7.64085 0.00289076C3.30901 -0.00773117 1.89627 0.00964368 1.65148 0.0763297ZM10.7312 5.02038C10.8214 5.08348 10.9382 5.23795 10.9908 5.3638C11.1771 5.80908 11.0896 5.9262 9.03169 7.98735C7.97627 9.04447 7.02711 9.95472 6.92254 10.0102C6.81789 10.0657 6.62972 10.1111 6.50423 10.1111C6.30352 10.1111 6.13704 9.97287 5.11789 8.96006C3.98458 7.83378 3.95965 7.80262 3.95965 7.5114C3.95965 7.09116 4.26423 6.78573 4.68324 6.78573C4.9643 6.78573 5.01444 6.82161 5.72979 7.53398C6.14303 7.94549 6.51148 8.28216 6.54859 8.28216C6.58563 8.28216 7.37887 7.52244 8.31127 6.5939C9.95592 4.95616 10.015 4.90565 10.2869 4.90565C10.4411 4.90565 10.6411 4.95728 10.7312 5.02038Z" fill="url(#paint0_linear_76_388)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_76_388" x1="9.88951e-08" y1="0.964286" x2="16.6071" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#8EF6B7"/>
+                                <stop offset="1" stop-color="#04B254"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            Интенсивно очищает и сужает поры
+                        </li>
+                        <li>
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65148 0.0763297C1.02077 0.24825 0.441409 0.75142 0.150493 1.37987C0.000633874 1.70367 0 1.72906 0 7.50837C0 13.3074 0.000140801 13.312 0.152183 13.6407C0.367676 14.1065 0.829296 14.5777 1.29282 14.8051L1.69014 15H7.5H13.3099L13.7072 14.8051C14.1707 14.5777 14.6323 14.1065 14.8478 13.6407C14.9999 13.312 15 13.3074 15 7.50837C15 1.70936 14.9999 1.70479 14.8478 1.37607C14.6323 0.910256 14.1707 0.439023 13.7072 0.211601L13.3099 0.0167484L7.64085 0.00289076C3.30901 -0.00773117 1.89627 0.00964368 1.65148 0.0763297ZM10.7312 5.02038C10.8214 5.08348 10.9382 5.23795 10.9908 5.3638C11.1771 5.80908 11.0896 5.9262 9.03169 7.98735C7.97627 9.04447 7.02711 9.95472 6.92254 10.0102C6.81789 10.0657 6.62972 10.1111 6.50423 10.1111C6.30352 10.1111 6.13704 9.97287 5.11789 8.96006C3.98458 7.83378 3.95965 7.80262 3.95965 7.5114C3.95965 7.09116 4.26423 6.78573 4.68324 6.78573C4.9643 6.78573 5.01444 6.82161 5.72979 7.53398C6.14303 7.94549 6.51148 8.28216 6.54859 8.28216C6.58563 8.28216 7.37887 7.52244 8.31127 6.5939C9.95592 4.95616 10.015 4.90565 10.2869 4.90565C10.4411 4.90565 10.6411 4.95728 10.7312 5.02038Z" fill="url(#paint0_linear_76_388)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_76_388" x1="9.88951e-08" y1="0.964286" x2="16.6071" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#8EF6B7"/>
+                                <stop offset="1" stop-color="#04B254"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            Растворяет черные точки
+                        </li>
+                        <li>
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65148 0.0763297C1.02077 0.24825 0.441409 0.75142 0.150493 1.37987C0.000633874 1.70367 0 1.72906 0 7.50837C0 13.3074 0.000140801 13.312 0.152183 13.6407C0.367676 14.1065 0.829296 14.5777 1.29282 14.8051L1.69014 15H7.5H13.3099L13.7072 14.8051C14.1707 14.5777 14.6323 14.1065 14.8478 13.6407C14.9999 13.312 15 13.3074 15 7.50837C15 1.70936 14.9999 1.70479 14.8478 1.37607C14.6323 0.910256 14.1707 0.439023 13.7072 0.211601L13.3099 0.0167484L7.64085 0.00289076C3.30901 -0.00773117 1.89627 0.00964368 1.65148 0.0763297ZM10.7312 5.02038C10.8214 5.08348 10.9382 5.23795 10.9908 5.3638C11.1771 5.80908 11.0896 5.9262 9.03169 7.98735C7.97627 9.04447 7.02711 9.95472 6.92254 10.0102C6.81789 10.0657 6.62972 10.1111 6.50423 10.1111C6.30352 10.1111 6.13704 9.97287 5.11789 8.96006C3.98458 7.83378 3.95965 7.80262 3.95965 7.5114C3.95965 7.09116 4.26423 6.78573 4.68324 6.78573C4.9643 6.78573 5.01444 6.82161 5.72979 7.53398C6.14303 7.94549 6.51148 8.28216 6.54859 8.28216C6.58563 8.28216 7.37887 7.52244 8.31127 6.5939C9.95592 4.95616 10.015 4.90565 10.2869 4.90565C10.4411 4.90565 10.6411 4.95728 10.7312 5.02038Z" fill="url(#paint0_linear_76_388)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_76_388" x1="9.88951e-08" y1="0.964286" x2="16.6071" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#8EF6B7"/>
+                                <stop offset="1" stop-color="#04B254"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            Уменьшает воспаления
+                        </li>
+                        <li>
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65148 0.0763297C1.02077 0.24825 0.441409 0.75142 0.150493 1.37987C0.000633874 1.70367 0 1.72906 0 7.50837C0 13.3074 0.000140801 13.312 0.152183 13.6407C0.367676 14.1065 0.829296 14.5777 1.29282 14.8051L1.69014 15H7.5H13.3099L13.7072 14.8051C14.1707 14.5777 14.6323 14.1065 14.8478 13.6407C14.9999 13.312 15 13.3074 15 7.50837C15 1.70936 14.9999 1.70479 14.8478 1.37607C14.6323 0.910256 14.1707 0.439023 13.7072 0.211601L13.3099 0.0167484L7.64085 0.00289076C3.30901 -0.00773117 1.89627 0.00964368 1.65148 0.0763297ZM10.7312 5.02038C10.8214 5.08348 10.9382 5.23795 10.9908 5.3638C11.1771 5.80908 11.0896 5.9262 9.03169 7.98735C7.97627 9.04447 7.02711 9.95472 6.92254 10.0102C6.81789 10.0657 6.62972 10.1111 6.50423 10.1111C6.30352 10.1111 6.13704 9.97287 5.11789 8.96006C3.98458 7.83378 3.95965 7.80262 3.95965 7.5114C3.95965 7.09116 4.26423 6.78573 4.68324 6.78573C4.9643 6.78573 5.01444 6.82161 5.72979 7.53398C6.14303 7.94549 6.51148 8.28216 6.54859 8.28216C6.58563 8.28216 7.37887 7.52244 8.31127 6.5939C9.95592 4.95616 10.015 4.90565 10.2869 4.90565C10.4411 4.90565 10.6411 4.95728 10.7312 5.02038Z" fill="url(#paint0_linear_76_388)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_76_388" x1="9.88951e-08" y1="0.964286" x2="16.6071" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#8EF6B7"/>
+                                <stop offset="1" stop-color="#04B254"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            Увлажняет и убирает шелушения
+                        </li>
+                        <li>
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65148 0.0763297C1.02077 0.24825 0.441409 0.75142 0.150493 1.37987C0.000633874 1.70367 0 1.72906 0 7.50837C0 13.3074 0.000140801 13.312 0.152183 13.6407C0.367676 14.1065 0.829296 14.5777 1.29282 14.8051L1.69014 15H7.5H13.3099L13.7072 14.8051C14.1707 14.5777 14.6323 14.1065 14.8478 13.6407C14.9999 13.312 15 13.3074 15 7.50837C15 1.70936 14.9999 1.70479 14.8478 1.37607C14.6323 0.910256 14.1707 0.439023 13.7072 0.211601L13.3099 0.0167484L7.64085 0.00289076C3.30901 -0.00773117 1.89627 0.00964368 1.65148 0.0763297ZM10.7312 5.02038C10.8214 5.08348 10.9382 5.23795 10.9908 5.3638C11.1771 5.80908 11.0896 5.9262 9.03169 7.98735C7.97627 9.04447 7.02711 9.95472 6.92254 10.0102C6.81789 10.0657 6.62972 10.1111 6.50423 10.1111C6.30352 10.1111 6.13704 9.97287 5.11789 8.96006C3.98458 7.83378 3.95965 7.80262 3.95965 7.5114C3.95965 7.09116 4.26423 6.78573 4.68324 6.78573C4.9643 6.78573 5.01444 6.82161 5.72979 7.53398C6.14303 7.94549 6.51148 8.28216 6.54859 8.28216C6.58563 8.28216 7.37887 7.52244 8.31127 6.5939C9.95592 4.95616 10.015 4.90565 10.2869 4.90565C10.4411 4.90565 10.6411 4.95728 10.7312 5.02038Z" fill="url(#paint0_linear_76_388)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_76_388" x1="9.88951e-08" y1="0.964286" x2="16.6071" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#8EF6B7"/>
+                                <stop offset="1" stop-color="#04B254"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            Матирует кожу
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="task">
+        <div class="container">
+            <div class="task__body">
+                <div class="task__body-text title-soft">
+                    <div class="line"></div>
+                    <h2>
+                        С какими проблемами <span>борется Биочистка</span>
+                    </h2>
+                </div>
+                <div class="task__body-card">
+                    <div class="task__body-card-item">
+                        <img src="../images/dist/task/1.png" alt="">
+                        <p>Угревая сыпь</p>
+                    </div>
+                    <div class="task__body-card-item">
+                        <img src="../images/dist/task/2.png" alt="">
+                        <p>Обезвоженность</p>
+                    </div>
+                    <div class="task__body-card-item">
+                        <img src="../images/dist/task/3.png" alt="">
+                        <p>Чрезмерная сухость</p>
+                    </div>
+                    <div class="task__body-card-item">
+                        <img src="../images/dist/task/4.png" alt="">
+                        <p>Купероз</p>
+                    </div>
+                    <div class="task__body-card-item">
+                        <img src="../images/dist/task/5.png" alt="">
+                        <p>Расширенные поры</p>
+                    </div>
+                    <div class="task__body-card-item">
+                        <img src="../images/dist/task/6.png" alt="">
+                        <p>Черные точки</p>
+                    </div>
+                    <div class="task__body-card-item">
+                        <img src="../images/dist/task/7.png" alt="">
+                        <p>Чувствительность</p>
+                    </div>
+                    <div class="task__body-card-item">
+                        <img src="../images/dist/task/8.png" alt="">
+                        <p>Гиперпигмен-тация</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="who">
+        <div class="container">
+            <div class="who__body">
+                <div class="who__body-text">
+                    <div class="line"></div>
+                    <h2 class="title-soft">Кому подходит <span>Биочистка</span></h2>
+                    <p>
+                        Этот продукт создан в лаборатории на основе научных данных о физико-химических процессах в живых
+                        клетках, поэтому подходит всем, у кого есть кожа. 
+                        <br><br>
+                        Биочистка работает уже с первого применения: за 30-60 секунд помогает добиться необыкновенного
+                        ощущения свежести, чистоты и гладкости кожи после умывания. 
+                    </p>
+                </div>
+                <img src="../images/dist/who__img.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog__body">
+                <div class="catalog__body-text">
+                    <div class="line"></div>
+                    <h2 class="title-soft"><span>Каталог</span> продукции</h2>
+                </div>
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <svg width="41" height="8" viewBox="0 0 41 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.646446 3.64645C0.451183 3.84171 0.451183 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM41 3.5L1 3.5V4.5L41 4.5V3.5Z" fill="#15BB61"/>
+                            </svg>                            
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <svg width="41" height="8" viewBox="0 0 41 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M40.3536 4.35355C40.5488 4.15829 40.5488 3.84171 40.3536 3.64644L37.1716 0.464463C36.9763 0.269201 36.6597 0.269201 36.4645 0.464463C36.2692 0.659725 36.2692 0.976308 36.4645 1.17157L39.2929 4L36.4645 6.82842C36.2692 7.02369 36.2692 7.34027 36.4645 7.53553C36.6597 7.73079 36.9763 7.73079 37.1716 7.53553L40.3536 4.35355ZM4.37114e-08 4.5L40 4.5L40 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="#15BB61"/>
+                            </svg>                            
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img class="splide__slide-img" src="../images/dist/catalog__img.png" alt="">
+                                <img class="splide__slide-el" src="../images/dist/catalog__el.png" alt="">
+                                <div class="splide__slide-text">
+                                    <span>Биочистка классическая</span>
+                                    <p>Скраб для умывания и глубокой очистки кожи. Подходит для жирной, комбинированной кожи
+                                    </p>
+                                    <span>1000 р.</span>
+                                    <button class="btn">Купить</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img class="splide__slide-img" src="../images/dist/catalog__img.png" alt="">
+                                <img class="splide__slide-el" src="../images/dist/catalog__el.png" alt="">
+                                <div class="splide__slide-text">
+                                    <span>Биочистка классическая</span>
+                                    <p>Скраб для умывания и глубокой очистки кожи. Подходит для жирной, комбинированной кожи
+                                    </p>
+                                    <span>1000 р.</span>
+                                    <button class="btn">Купить</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img class="splide__slide-img" src="../images/dist/catalog__img.png" alt="">
+                                <img class="splide__slide-el" src="../images/dist/catalog__el.png" alt="">
+                                <div class="splide__slide-text">
+                                    <span>Биочистка классическая</span>
+                                    <p>Скраб для умывания и глубокой очистки кожи. Подходит для жирной, комбинированной кожи
+                                    </p>
+                                    <span>1000 р.</span>
+                                    <button class="btn">Купить</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img class="splide__slide-img" src="../images/dist/catalog__img.png" alt="">
+                                <img class="splide__slide-el" src="../images/dist/catalog__el.png" alt="">
+                                <div class="splide__slide-text">
+                                    <span>Биочистка классическая</span>
+                                    <p>Скраб для умывания и глубокой очистки кожи. Подходит для жирной, комбинированной кожи
+                                    </p>
+                                    <span>1000 р.</span>
+                                    <button class="btn">Купить</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img class="splide__slide-img" src="../images/dist/catalog__img.png" alt="">
+                                <img class="splide__slide-el" src="../images/dist/catalog__el.png" alt="">
+                                <div class="splide__slide-text">
+                                    <span>Биочистка классическая</span>
+                                    <p>Скраб для умывания и глубокой очистки кожи. Подходит для жирной, комбинированной кожи
+                                    </p>
+                                    <span>1000 р.</span>
+                                    <button class="btn">Купить</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img class="splide__slide-img" src="../images/dist/catalog__img.png" alt="">
+                                <img class="splide__slide-el" src="../images/dist/catalog__el.png" alt="">
+                                <div class="splide__slide-text">
+                                    <span>Биочистка классическая</span>
+                                    <p>Скраб для умывания и глубокой очистки кожи. Подходит для жирной, комбинированной кожи
+                                    </p>
+                                    <span>1000 р.</span>
+                                    <button class="btn">Купить</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img class="splide__slide-img" src="../images/dist/catalog__img.png" alt="">
+                                <img class="splide__slide-el" src="../images/dist/catalog__el.png" alt="">
+                                <div class="splide__slide-text">
+                                    <span>Биочистка классическая</span>
+                                    <p>Скраб для умывания и глубокой очистки кожи. Подходит для жирной, комбинированной кожи
+                                    </p>
+                                    <span>1000 р.</span>
+                                    <button class="btn">Купить</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img class="splide__slide-img" src="../images/dist/catalog__img.png" alt="">
+                                <img class="splide__slide-el" src="../images/dist/catalog__el.png" alt="">
+                                <div class="splide__slide-text">
+                                    <span>Биочистка классическая</span>
+                                    <p>Скраб для умывания и глубокой очистки кожи. Подходит для жирной, комбинированной кожи
+                                    </p>
+                                    <span>1000 р.</span>
+                                    <button class="btn">Купить</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section class="simple">
+        <div class="container">
+            <div class="simple__body">
+                <div class="simple__body-img">
+                    <img src="../images/dist/simple__img.png" alt="">
+                </div>
+                <div class="simple__body-text">
+                    <div class="line"></div>
+                    <h2 class="title-soft">Простое <span>применение</span></h2>
+                    <div class="simple__body-text-list">
+                        <div class="simple__body-text-list-item">
+                            <span>01</span>
+                            <p>Высыпать небольшое количество в ладонь</p>
+                        </div>
+                        <div class="simple__body-text-list-item">
+                            <span>02</span>
+                            <p>Добавить несколько капель воды</p>
+                        </div>
+                        <div class="simple__body-text-list-item">
+                            <span>03</span>
+                            <p>Нанести на влажную кожу и оставить на 30-60 секунд</p>
+                        </div>
+                        <div class="simple__body-text-list-item">
+                            <span>04</span>
+                            <p>Смыть водой комфортной температуры</p>
+                        </div>
+                    </div>
+                    <div class="simple__body-text-place">
+                        Не требует растирания
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sale">
+        <div class="container">
+            <div class="sale__body">
+                <div class="sale__body-text">
+                    <div class="line"></div>
+                    <h2 class="title-soft"><span>Получите скидку 300 р.</span> на первый заказ</h2>
+                    <button class="sale__body-text-btn btn">
+                        Оставить заявку прямо сейчас
+                    </button>
+                    <img src="../images/dist/sale__svg.svg" alt="">
+                    <p class="btn">Отправляя данные, вы соглашаетесь на обработку персональных данных</p>
+                </div>
+                <img class="sale__body-img" src="../images/dist/sale__img.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <div class="container">
+            <div class="review__body">
+                <div class="review__body-text">
+                    <div class="line"></div>
+                    <h2 class="title-soft"><span>Покупатели</span> о нас</h2>
+                </div>
+                <div class="review__body-card">
+                    <div class="review__body-card-item">
+                        <div class="review__body-card-item-top">
+                            <span>Ирина А.</span>
+                            <div class="review__body-card-item-top-star">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                            </div>
+                        </div>
+                        <p>Самая лучшая отечественная косметика, из того что я пробовала. Особенно очистка для лица, очень хороший зубной порошок, никогда бы не подумала, что буду пользоваться чем то подобным. Купила так же бады.</p>
+                        <div class="review__body-card-item-bot">
+                            <span>оставлен в Yandex</span>
+                            <span>10 апреля 2024</span>
+                        </div>
+                    </div>
+                    <div class="review__body-card-item">
+                        <div class="review__body-card-item-top">
+                            <span>Анастасия В.</span>
+                            <div class="review__body-card-item-top-star">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                            </div>
+                        </div>
+                        <p>
+                            Друзья, вы лучшие ))) Спасибо менеджеру Татьяне за внимание и объяснения по каждому продукту. Спасибо за доставку - всегда свяжутся заранее и согласуют время. Рекомендую как альтернативу многим импортным дорогим брендам!
+                        </p>
+                        <div class="review__body-card-item-bot">
+                            <span>оставлен в Yandex</span>
+                            <span>1 апреля 2024</span>
+                        </div>
+                    </div>
+                    <div class="review__body-card-item">
+                        <div class="review__body-card-item-top">
+                            <span>Лариса К.</span>
+                            <div class="review__body-card-item-top-star">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                            </div>
+                        </div>
+                        <p>Качественная, эффективная косметика. Много лет пользуюсь биочисткой Биобьюти. До этого на коже часто были воспаления, и кожа была жирной. За все это время, пока умываюсь биочисткой, на коже ни разу не было воспалений</p>
+                        <div class="review__body-card-item-bot">
+                            <span>оставлен в Yandex</span>
+                            <span>12 октября 2023</span>
+                        </div>
+                    </div>
+                    <div class="review__body-card-item">
+                        <div class="review__body-card-item-top">
+                            <span>Ирина М.</span>
+                            <div class="review__body-card-item-top-star">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                                <img src="../images/dist/star.png" alt="">
+                            </div>
+                        </div>
+                        <p>Я недавно заказала биочистку с цинком у низ для дочки подростка. Очень понравилось. Все быстро прислали, упаковано в коробку</p>
+                        <div class="review__body-card-item-bot">
+                            <span>оставлен в Yandex</span>
+                            <span>12 октября 2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review__body-desc">
+                    <span>Смотреть больше отзывов на</span>
+                    <div>
+                        <img src="../images/dist/ya.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="que">
+        <div class="container">
+            <div class="que__body">
+                <div class="que__body-text">
+                    <div class="line"></div>
+                    <h2 class="title-soft">Часто задаваемые <span>вопросы</span></h2>
+                </div>
+                <div class="que__body-acc">
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Как работают Биочистки?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Биочистки, благодаря уникальным минералам в составе, работают на коже как природный пылесос: они
+                            убирают внешние (кожное сало, ороговевшие чешуйки кожи, макияж, пыль) и внутренние загрязнения
+                            (токсины, соли тяжелых металлов, радионуклиды). За 1 минуту кожа очищается так, как будто вы час
+                            провели в бане.
+                            <br><br>
+                            Уже после первого применения вы почувствуете, что кожа стала мягкой и гладкой, как у младенца, а
+                            черных точек и раздражений стало меньше. Кожа начнёт «дышать». Регулярное использование
+                            биочисток поможет коже восстановить собственные ресурсы: повысится упругость, усилится местный
+                            иммунитет. Кроме того, замедлится старение, уйдёт чрезмерная жирность, исчезнут комедоны и
+                            воспаления.
+                            <br><br>
+                            Очищение Биочистками заменяет ультразвуковую чистку по оказываемому эффекту и по затратам
+                            времени. Эффект от процедуры очищения с Биочистой достигается за 1 минуту, но по своей
+                            эффективности он превосходит 40-минутную ультразвуковую чистку. Кроме того, Биочистки отлично
+                            подготавливают кожу к последующим процедурам — маскам, кремам, массажам, значительно повышая их
+                            эффективность.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Как часто можно пользоваться Биочистками?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>Людям с жирной кожей мы рекомендуем использовать Биочистки дважды в день: утром и вечером.
+                            Обладателям сухой кожи достаточно ежедневного умывания.
+                            <br><br>
+                            Несмотря на то, что это скрабы, Биочистки не требуют активного растирания на коже. Они работают
+                            за счёт ионного обмена и сорбционных свойств минерала вулканического происхождения — цеолита.
+                            Как пылесос, они втягивают в себя загрязнения из дермы и с поверхности кожи.
+                            <br><br>
+                            Такой эффект достигается благодаря очень пористой структуре цеолита. Он может втягивать внутрь
+                            своей решетки токсичные вещества, а затем отдавать коже полезные элементы, такие как медь,
+                            магний, цинк и натрий.</p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Можно ли использовать во время беременности и кормлении грудью?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Да, продукты полностью натуральные и не содержат вредных веществ, таких как парабены, силиконы,
+                            сульфаты и ПАВы. Поэтому их можно использовать во время беременности и кормления грудью.
+                            <br><br>
+                            Кроме того, умывание Биочистками способствует детоксикации кожи: нанесение этих продуктов на всё
+                            тело снижает нагрузку на почки и другие органы выделительной системы. Это, в свою очередь,
+                            улучшает самочувствие как будущей мамы, так и её ребёнка.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Подходят ли Биочистки аллергикам?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Да, Биочистки — это гипоаллергенные продукты. Они не только помогают выводить аллергены и
+                            токсины из кожи, но и уменьшают её чувствительность и реактивность. Это способствует укреплению
+                            иммунитета кожи.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Сколько нужно продукта на одно применение?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Для одного применения на лицо достаточно 1,5 гр продукта, смоченного водой до состояния мокрого
+                            песочка прямо в ладони.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Можно ли пользоваться Биочистками подросткам?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Подросткам рекомендуется использовать Биочистки, особенно если их беспокоят повышенная жирность
+                            кожи, комедоны и угри. Эти средства помогают улучшить состояние кожи уже после первого
+                            применения, а при комплексном лечении способствуют решению более серьёзных проблем.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Почему продукт нельзя растирать на лице?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Мы не советуем растирать Биочистку по коже лица.
+                            Во-первых, это не требуется. Действие Биочистки основано на биохимических процессах и не
+                            предполагает механического воздействия на эпидермис. Даже лёгкий пилинг, который выполняет
+                            Биочистка, происходит за счёт химической реакции между живыми и омертвевшими клетками.
+                            <br><br>
+                            Во-вторых, не стоит лишний раз травмировать кожу агрессивными механическими или химическими
+                            воздействиями, включая пилинги и скрабы, предполагающие растирание по коже. Это может привести к
+                            микроповреждениям, через которые могут проникнуть болезнетворные микробы и бактерии.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Поможет ли Биочистка убрать постакне?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Да, Биочистка действительно помогает избавиться от следов постакне за 30 дней. Это связано с
+                            тем, что клетки эпидермиса обновляются именно за такой период времени. Если использовать
+                            Биочистку каждый день, то процесс обновления клеток ускорится, а следы постакне будут светлеть и
+                            исчезать быстрее.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Можно ли использовать, если на коже есть сыпь?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Сыпь может быть признаком различных проблем со здоровьем. Наши продукты для ухода за кожей
+                            помогают бороться с внешними проявлениями этих проблем. Однако если причина сыпи кроется внутри
+                            организма, обязательно обратитесь к врачу для получения квалифицированной помощи.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Когда будет заметен результат?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Первый результат — непревзойденную чистоту, гладкость и бархатистость кожи — вы заметите уже
+                            после первого применения. А через неделю ежедневного использования вы увидите, что тон кожи стал
+                            ровнее, высыпания уменьшились, поры стали менее заметными, а чёрные точки — менее выраженными.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Как понять, что Биочистка мне подойдет?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Перед использованием любого средства, в том числе нашей Биочистки, мы рекомендуем провести тест
+                            на небольшом участке кожи, например, на локтевом сгибе. Оставьте средство на коже в течение
+                            30-60 секунд и проверьте, не возникло ли неприятных ощущений. Если всё в порядке, значит,
+                            продукт вам подходит.
+                        </p>
+                    </div>
+                    <div class="que__body-acc-item">
+                        <div class="que__body-acc-item-main">
+                            <h3>Можно ли применять Биочистки на других частях тела?</h3>
+                            <span>+</span>
+                        </div>
+                        <p>
+                            Биочистки можно использовать для ухода за кожей головы и всего тела. Если использовать их для
+                            тела, эффект будет сравним с походом в русскую баню: через 5–10 минут кожа станет гладкой,
+                            нежной и мягкой.
+                            <br><br>
+                            Для ухода за кожей головы Биочистки применяют, когда нужно справиться с перхотью, излишней
+                            жирностью, восстановить корни волос после химической завивки или окрашивания, а также убрать зуд
+                            и шелушение. В этом случае Биочистку нужно выдержать на коже головы 20–30 минут.
+                        </p>
+                    </div>
+                </div>
+                <button class="que__body-btn btn">
+                    Задать свой вопрос
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__body">
+                <div class="contact__body-form">
+                    <div class="contact__body-form-text">
+                        <div class="line"></div>
+                        <h2 class="title-soft">Остались <span>вопросы?</span></h2>
+                    </div>
+                    <span class="contact__body-form-title">Заполните простую форму, и мы свяжемся с Вами</span>
+                    <form class="contact__body-form-main" action="">
+                        <input class="btn" placeholder="Как Вас зовут?" id="name" type="text">
+                        <input class="btn" placeholder="+ 7 (999) 999-99-99" id="tel" type="tel">
+                        <button class="btn" type="button">
+                            Перезвоните мне
+                        </button>
+                    </form>
+                    <p>Отправляя данные, вы соглашаетесь на обработку персональных данных</p>
+                </div>
+                <div class="contact__body-main">
+                    <div class="contact__body-main-text">
+                        <div class="line"></div>
+                        <h2 class="title-soft">Наши <span>контакты</span></h2>
+                    </div>
+                    <div class="contact__body-main-block">
+                        <div class="contact__body-main-block-col">
+                            <div class="contact__body-main-block-item">
+                                <span>Телефон</span>
+                                <p>8 (925) 504-80-638</p>
+                            </div>
+                            <div class="contact__body-main-block-item">
+                                <span>Почта</span>
+                                <p>shop@biobeauty.ru </p>
+                            </div>
+                            <div class="contact__body-main-block-item">
+                                <span>Адрес</span>
+                                <p>Москва, ул. Верхнелихоборская, д.8</p>
+                            </div>
+                            <div class="contact__body-main-block-item">
+                                <span>ИНН</span>
+                                <p>5029101586</p>
+                            </div>
+                        </div>
+                        <div class="contact__body-main-block-col">
+                            <div class="contact__body-main-block-item">
+                                <span></span>
+                                <p>8 (800) 707-07-32</p>
+                            </div>
+                            <div class="contact__body-main-block-item">
+                                <span>Режим работы</span>
+                                <p>c 10:00 до 18:00</p>
+                            </div>
+                            <div class="contact__body-main-block-item">
+                                <span>Название компании</span>
+                                <p>ООО «Бьюти»</p>
+                            </div>
+                            
+                            <div class="contact__body-main-block-item">
+                                <span>ОГРН</span>
+                                <p>1075029005292</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <a class="footer__body-logo" href="">
+                    <img src="../images/dist/header__logo.png" alt="">
+                </a>
+                <nav class="footer__body-menu">
+                    <ul class="footer__body-menu-list">
+                        <li class="footer__body-menu-list-item btn">
+                            <a href="">Кому подойдет</a>
+                        </li>
+                        <li class="footer__body-menu-list-item btn">
+                            <a href="">Преимущества</a>
+                        </li>
+                        <li class="footer__body-menu-list-item btn">
+                            <a href="">Скрабы</a>
+                        </li>
+                        <li class="footer__body-menu-list-item btn">
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__body-menu-list">
+                        <li class="footer__body-menu-list-item btn">
+                            <a href="">Публичная оферта</a>
+                        </li>
+                        <li class="footer__body-menu-list-item btn">
+                            <a href="">Политика обработки персональных данных</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__body-contact">
+                    <a class="btn" href="tel:892550480638">
+                        8 (925) 504-80-638
+                    </a>
+                    <div class="footer__body-contact-time">
+                        <div class="circle"></div>
+                        <span class="btn">c 10:00 до 18:00, 7 дней в неделю</span>
+                    </div>
+                </div>
+                <button class="footer__body-btn btn">
+                    Заказать звонок
+                </button>
+            </div>
+        </div>
+    </footer>
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../js/main.min.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,80 @@
+.que{
+    width: 100%;
+    padding: 100px 0px;
+    background: #EFFFF5;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 31.5px;
+        &-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-acc{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            &-item{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 26px 25px;
+                width: 590px;
+                background: #fff;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                height: auto;
+                &-main{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    span{
+                        font-size: 30px;
+                        font-weight: 200;
+                        line-height: 34.41px;
+                        text-align: left;
+                        color: #333;
+                        transition: all 0.3s;
+                    }
+                    h3{
+                        font-size: 20px;
+                        font-weight: 300;
+                        line-height: 28.9px;
+                        text-align: left;
+                        color: #333;
+                    }
+                }
+                p{
+                    font-size: 15px;
+                    font-weight: 300;
+                    line-height: 21.68px;
+                    text-align: left;
+                    color: #333;
+                    transition: all 0.3s ease;
+                    max-height: 0;
+                    overflow: hidden;
+                }
+            }
+            &-item.open{
+                .que__body-acc-item-main{
+                    span{
+                        rotate: 180deg;
+                    }
+                }
+            }
+        }
+        &-btn{
+            padding: 24px 90px;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 21.92px;
+            text-align: left;
+            color: #fff;
+            background: linear-gradient(130.2deg, #83EEAE 2.94%, #038D43 105.81%);
+            margin-top: 20px;
+        }
+    }
+}

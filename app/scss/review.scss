@@ -1,0 +1,94 @@
+.review{
+    width: 100%;
+    padding: 100px 0px;
+    background: #EFFFF5;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 31.5px;
+        &-text{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        &-card{
+            display: flex;
+            gap: 20px;
+            &-item{
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+                background: #fff;
+                padding: 30px 25px;
+                width: 285px;
+                &-top{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    span{
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 26.01px;
+                        text-align: left;
+                        color: #333;
+                    }
+                    &-star{
+                        display: flex;
+                        align-items: center;
+                        gap: 3px;
+                        img{
+                            width: 17px;
+                            height: 17px;
+                        }
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 18px;
+                    text-align: left;
+                    color: #333;
+                }
+                &-bot{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 4px;
+                    span{
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 18px;
+                        text-align: left;
+                        color: #333;
+                    }
+                }
+            }
+        }
+        &-desc{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            span{
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 28.9px;
+                text-align: left;
+                color: #333;
+            }
+            div{
+                width: 85px;
+                height: 40px;
+                background: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0px 0px 50px 0px #0000001C;
+                img{
+                    width: 61px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
