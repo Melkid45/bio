@@ -111,11 +111,12 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    gap: 61rem;
+                    justify-content: space-between;
                     position: relative;
                     overflow: visible;
                     padding-top: 45rem;
                     padding-bottom: 20rem;
+                    height: 470rem !important;
                     &-img{
                         width: 80rem;
                         height: 184rem;
@@ -160,6 +161,27 @@
                             color: #fff;
                         }
                     }
+                }
+                .img__one{
+                    width: 247rem;
+                    height: 329rem;
+                    top: -77rem;
+                }
+                .img__two{
+                    width: 165rem;
+                    height: 220rem;
+                    top: -7rem;
+                }
+                .img__three{
+                    width: 298rem;
+                    height: 298rem;
+                    top: -40rem;
+                    left: 5rem;
+                }
+                .img__four{
+                    width: 196rem;
+                    height: 262rem;
+                    top: -30rem;
                 }
                 .splide__arrows{
                     .splide__arrow{

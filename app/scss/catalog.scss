@@ -19,11 +19,12 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 61px;
+                justify-content: space-between;
                 position: relative;
                 overflow: visible;
                 padding-top: 45px;
                 padding-bottom: 20px;
+                height: 470px !important;
                 &-img{
                     width: 80px;
                     height: 184px;
@@ -68,6 +69,27 @@
                         color: #fff;
                     }
                 }
+            }
+            .img__one{
+                width: 247px;
+                height: 329px;
+                top: -77px;
+            }
+            .img__two{
+                width: 165px;
+                height: 220px;
+                top: -7px;
+            }
+            .img__three{
+                width: 298px;
+                height: 298px;
+                top: -40px;
+                left: 5px;
+            }
+            .img__four{
+                width: 196px;
+                height: 262px;
+                top: -30px;
             }
             .splide__arrows{
                 .splide__arrow{
